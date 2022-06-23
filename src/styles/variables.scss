@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
+
+$Poppins: "Poppins", sans-serif;
+$Code: "Cascadia Code", sans-serif;
+
+//colors
+$dark: #1a1919;
+$light: #fff;
+$blueD: #3583fb;
+$bg: #121212;
+$redD: rgb(195, 80, 91);
+$redL: rgb(247, 104, 119);
+$greenL: rgb(115, 237, 164);
+$orange: #fc9867;
+$pink: #ff6188;
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+$borderRadius: 30px;
+
+$headerHeight: 90px;
+
+@mixin breakpoint($point) {
+	@if $point == md {
+		@media (min-width: 58rem) {
+			@content;
+		}
+	}
+	@if $point == md1 {
+		@media (min-width: 62.5rem) {
+			@content;
+		}
+	}
+}
