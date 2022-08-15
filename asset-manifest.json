@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.aaddb1ca.css",
-    "main.js": "/static/js/main.727367ec.js",
-    "static/media/jaden.png": "/static/media/jaden.e17b56756a71a51fd05f.png",
-    "static/media/pong.png": "/static/media/pong.f5113db10f2f255bb0bf.png",
-    "static/media/valorant.png": "/static/media/valorant.8082eb6f58d9f5df18cc.png",
-    "static/media/mathbot.png": "/static/media/mathbot.2508e4d168da8f381a59.png",
-    "static/media/mcmasterLogo.png": "/static/media/mcmasterLogo.52cd1aba4db172d6233f.png",
-    "static/media/findr.png": "/static/media/findr.cdaf42b5844f88cd9171.png",
-    "index.html": "/index.html",
-    "main.aaddb1ca.css.map": "/static/css/main.aaddb1ca.css.map",
-    "main.727367ec.js.map": "/static/js/main.727367ec.js.map"
+    "main.css": "/portfolio/static/css/main.aaddb1ca.css",
+    "main.js": "/portfolio/static/js/main.d2b57f03.js",
+    "static/media/jaden.png": "/portfolio/static/media/jaden.e17b56756a71a51fd05f.png",
+    "static/media/pong.png": "/portfolio/static/media/pong.f5113db10f2f255bb0bf.png",
+    "static/media/valorant.png": "/portfolio/static/media/valorant.8082eb6f58d9f5df18cc.png",
+    "static/media/mathbot.png": "/portfolio/static/media/mathbot.2508e4d168da8f381a59.png",
+    "static/media/mcmasterLogo.png": "/portfolio/static/media/mcmasterLogo.52cd1aba4db172d6233f.png",
+    "static/media/findr.png": "/portfolio/static/media/findr.cdaf42b5844f88cd9171.png",
+    "index.html": "/portfolio/index.html",
+    "main.aaddb1ca.css.map": "/portfolio/static/css/main.aaddb1ca.css.map",
+    "main.d2b57f03.js.map": "/portfolio/static/js/main.d2b57f03.js.map"
   },
   "entrypoints": [
     "static/css/main.aaddb1ca.css",
-    "static/js/main.727367ec.js"
+    "static/js/main.d2b57f03.js"
   ]
 }
