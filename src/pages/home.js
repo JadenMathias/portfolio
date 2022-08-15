@@ -19,7 +19,9 @@ const Home = () => {
 					<img className={classes.home__image} src={img} alt="" />
 					<div className={classes.home__content}>
 						<h1>Jaden Mathias</h1>
-						<p>Computer Science student studying at McMaster University</p>
+						<p className={classes.home__para}>
+							Computer Science student studying at McMaster University
+						</p>
 					</div>
 				</section>
 				<section className={classes.about} id="about">

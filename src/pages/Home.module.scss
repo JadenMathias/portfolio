@@ -63,6 +63,11 @@ section {
 			height: 500px;
 		}
 	}
+	&__para {
+		@include breakpoint(md2) {
+			font-size: 1rem;
+		}
+	}
 }
 
 .about {
@@ -155,7 +160,7 @@ section {
 	&__content {
 		padding: 20px 10px;
 	}
-	&__img {
-		max-width: 500px;
-	}
+}
+.education__img {
+	max-width: 100%;
 }

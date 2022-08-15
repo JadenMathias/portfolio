@@ -22,7 +22,7 @@ const Header = (props) => {
 	}, []);
 
 	React.useEffect(() => {
-		if (size.width > 768 && menuOpen) {
+		if (size.width > 964 && menuOpen) {
 			setMenuOpen(false);
 		}
 	}, [size.width, menuOpen]);

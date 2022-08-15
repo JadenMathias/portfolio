@@ -28,12 +28,17 @@ $headerHeight: 80px;
 
 @mixin breakpoint($point) {
 	@if $point == md {
-		@media (min-width: 60.25rem) {
+		@media (min-width: 964px) {
 			@content;
 		}
 	}
 	@if $point == md1 {
 		@media (min-width: 62.5rem) {
+			@content;
+		}
+	}
+	@if $point == md2 {
+		@media (max-width: 312px) {
 			@content;
 		}
 	}
