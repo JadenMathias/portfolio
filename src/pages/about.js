@@ -1,5 +1,5 @@
 import * as React from "react";
-import Typer from "../components/typer";
+
 import classes from "./About.module.scss";
 import img from "../images/Jaden.jpg";
 const About = () => {

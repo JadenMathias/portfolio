@@ -1,8 +1,161 @@
 @import "../styles/variables.scss";
 
+* {
+	color: $light;
+	text-align: center;
+}
+
+p {
+	font-size: 1.5rem;
+	font-family: $Roboto;
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 2.9rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+.divider {
+	height: 1px;
+	width: 100%;
+	background: white;
+	background: linear-gradient(90deg, hsl(0, 0%, 20%), hsl(0, 0%, 100%), hsl(0, 0%, 20%));
+}
 .mainContainer {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 80vh;
+}
+
+section {
+	padding-top: 50px;
+	width: 100%;
+}
+
+.home {
+	padding-bottom: 50px;
+	background-image: url("https://images8.alphacoders.com/113/1133691.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-clip: padding-box;
+	position: relative;
+	height: 600px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	@include breakpoint(md) {
+		flex-direction: row;
+		justify-content: space-evenly;
+		height: 500px;
+	}
+	&__image {
+		position: absolute;
+		bottom: 0;
+		height: 400px;
+		@include breakpoint(md) {
+			position: relative;
+			height: 500px;
+		}
+	}
+}
+
+.about {
+	&__content {
+		padding: 20px 10px;
+		margin-top: 10px;
+		font-size: 1.4rem;
+		@include breakpoint(md) {
+			padding: 20px 6rem;
+		}
+	}
+	&__skills {
+		padding: 20px 0px;
+		&__content {
+			padding: 20px 0px;
+			@include breakpoint(md) {
+				padding: 20px 6rem;
+			}
+		}
+	}
+}
+
+.skillset {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: transparent;
+}
+
+.skill {
+	overflow: hidden;
+	display: inline-block;
+	position: relative;
+	color: white;
+	background: $orange;
+
+	cursor: default;
+	padding: 10px;
+	border-radius: 20px;
+	margin: 20px;
+	width: 100px;
+	text-align: center;
+	background-size: auto 100px;
+	transition: 0.5s ease all;
+}
+.skill:after {
+	content: "";
+	position: absolute;
+	top: -240%;
+	left: -210%;
+	width: 200%;
+	height: 200%;
+	opacity: 0;
+	transform: rotate(30deg);
+	transition: 0.5s ease all;
+	background: rgba(255, 255, 255, 0.13);
+	background: linear-gradient(
+		to right,
+		rgba(255, 255, 255, 0) 0%,
+		rgba(255, 255, 255, 0.13) 77%,
+		rgba(255, 255, 255, 0.5) 92%,
+		rgba(255, 255, 255, 0) 100%
+	);
+}
+
+.skill:hover:after {
+	opacity: 1;
+	top: -30%;
+	left: -30%;
+	transition-property: left, top, opacity;
+	transition-duration: 1s, 1s, 0.3s;
+	transition-timing-function: ease;
+}
+
+.skill:active:after {
+	opacity: 0;
+}
+.projects {
+	&__content {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.education {
+	padding-bottom: 30px;
+	&__content {
+		padding: 20px 10px;
+	}
+	&__img {
+		max-width: 500px;
+	}
 }

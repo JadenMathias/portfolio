@@ -1,0 +1,77 @@
+@import "../styles/variables.scss";
+
+.proj {
+	margin: 20px 0px;
+	display: flex;
+	min-height: 400px;
+	padding: 10px;
+	align-items: center;
+	flex-direction: column;
+	transition: all 0.3s ease;
+	@include breakpoint(md) {
+		flex-direction: row;
+	}
+	&__image {
+		padding: 5px;
+		width: 90%;
+		background-color: transparent;
+		border-color: $pink;
+		border-width: 3px;
+		border-style: solid;
+		transition: all 0.3s ease;
+		@include breakpoint(md) {
+			width: 40%;
+		}
+	}
+	&__image:hover {
+		transition: all 0.3s ease;
+		border-color: rgba(255, 255, 255, 1);
+		border-width: 5px;
+		width: 95%;
+		@include breakpoint(md) {
+			width: 42%;
+		}
+	}
+	&__title {
+		font-size: 2rem;
+		color: white;
+		background-color: transparent;
+	}
+	&__desc {
+		text-align: center;
+		font-family: $Roboto;
+		font-weight: 300;
+		padding: 0 10px;
+		background-color: transparent;
+		font-size: 1.2rem;
+		margin: 20px;
+		margin-bottom: 40px;
+	}
+	&__info {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		padding: 20px 0;
+		margin: 10px;
+	}
+}
+
+.button {
+	display: block;
+	width: 60px;
+	padding: 6px;
+	text-decoration: none;
+	color: white;
+	background: $orange;
+	text-transform: uppercase;
+	border-radius: 20px;
+	text-align: center;
+	font-family: $OpenSans;
+	transition: all 0.3s ease;
+}
+
+.button:hover {
+	background-color: white;
+	color: $orange;
+	transition: all 0.3s ease;
+}
