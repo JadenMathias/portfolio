@@ -10,6 +10,7 @@ import Project from "../components/project";
 import pong from "../images/pong.png";
 import Header from "../components/header";
 import Footer from "../components/footer";
+import Links from "../components/links";
 const Home = () => {
 	return (
 		<>
@@ -22,6 +23,7 @@ const Home = () => {
 						<p className={classes.home__para}>
 							Computer Science student studying at McMaster University
 						</p>
+						<Links />
 					</div>
 				</section>
 				<section className={classes.about} id="about">
@@ -66,8 +68,26 @@ const Home = () => {
 				</section>
 				<div className={classes.divider}></div>
 				<section className={classes.projects} id="project">
-					<h1>Projects</h1>
+					<h1>Projects & Experiences</h1>
 					<div className={classes.projects__content}>
+						<Project
+							image={findr}
+							title="Amima"
+							desc="Amima is a community dedicated for people to share online shopping experiences and product 
+							reviews. It is a platform that allows you to discover current popular trending products and browse 
+							through product reviews from other people. As the Lead Front end developer, I guided my team to successfuly
+							develop a responsive UI supported on multiple operating systems in using Flutter. Check out the App through the link below!"
+							links={[
+								{
+									title: "iOS",
+									link: "https://apps.apple.com/us/app/amima/id1639837338?platform=iphone",
+								},
+								{
+									title: "Android",
+									link: "https://play.google.com/store/apps/details?id=com.amima.amima_app",
+								},
+							]}
+						/>
 						<Project
 							image={valorant}
 							title="Valorant Soundboard"
@@ -76,7 +96,12 @@ const Home = () => {
 							made using Android Studio and was programmed in Java. Though currently
 							it is unavaible on the Playstore, the .apk file provided can be used to
 							run the app on your Android devices!"
-							link="https://drive.google.com/file/d/1ln-72otoXC8WHIqTOYPiizlUSWGlJ2AH/view?usp=sharing"
+							links={[
+								{
+									title: "Try it",
+									link: "https://drive.google.com/file/d/1ln-72otoXC8WHIqTOYPiizlUSWGlJ2AH/view?usp=sharing",
+								},
+							]}
 						/>
 						<Project
 							image={pong}
@@ -86,7 +111,9 @@ const Home = () => {
 					dimensional instead of two, making it much more challenging and fun. It
 					was made using Unity and programmed in C#. You can try the game or
 					download it with the link below!"
-							link="https://jmapps.itch.io/neon-3d-pong"
+							links={[
+								{ title: "Try it", link: "https://jmapps.itch.io/neon-3d-pong" },
+							]}
 						/>
 						<Project
 							image={mathbot}
@@ -95,7 +122,12 @@ const Home = () => {
 					main feature of this bot is that it can derivate mathematical equations.
 					The bot was made in Python and was achieved by programming a
 					interpreter. You can check out the code in the link below!"
-							link="https://github.com/JadenMathias/Discord_math_bot"
+							links={[
+								{
+									title: "Try it",
+									link: "https://github.com/JadenMathias/Discord_math_bot",
+								},
+							]}
 						/>
 						<Project
 							image={findr}
@@ -105,7 +137,12 @@ const Home = () => {
 					during a Hackathon and is still in the early stages. The app was
 					developed using Flutter and programmed in Dart. Check out the demo in
 					the link below!"
-							link="https://devpost.com/software/findr-u6ovgb"
+							links={[
+								{
+									title: "Try it",
+									link: "https://devpost.com/software/findr-u6ovgb",
+								},
+							]}
 						/>
 					</div>
 				</section>

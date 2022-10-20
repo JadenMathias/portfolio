@@ -8,14 +8,20 @@ const Project = (props) => {
 			<div className={classes.proj__info}>
 				<h1 className={classes.proj__title}>{props.title}</h1>
 				<p className={classes.proj__desc}>{props.desc}</p>
-				<a
-					target="_blank"
-					rel="noopener noreferrer"
-					href={props.link}
-					className={classes.button}
-				>
-					Try it
-				</a>
+				<div className={classes.proj__links}>
+					{props.links.map((current) => {
+						return (
+							<a
+								target="_blank"
+								rel="noopener noreferrer"
+								href={current.link}
+								className={classes.button}
+							>
+								{current.title}
+							</a>
+						);
+					})}
+				</div>
 			</div>
 		</div>
 	);

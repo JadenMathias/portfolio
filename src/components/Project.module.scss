@@ -54,16 +54,21 @@
 		padding: 20px 0;
 		margin: 10px;
 	}
+	&__links {
+		display: flex;
+		flex-direction: row;
+	}
 }
 
 .button {
+	margin: 10px;
 	display: block;
-	width: 60px;
-	padding: 6px;
+
+	padding: 4px 8px;
 	text-decoration: none;
 	color: white;
 	background: $orange;
-	text-transform: uppercase;
+
 	border-radius: 20px;
 	text-align: center;
 	font-family: $OpenSans;
