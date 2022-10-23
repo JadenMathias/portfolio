@@ -3,6 +3,7 @@ import * as React from "react";
 import classes from "./Home.module.scss";
 import img from "../images/jaden.png";
 import findr from "../images/findr.png";
+import amima from "../images/amima.png";
 import valorant from "../images/valorant.png";
 import mathbot from "../images/mathbot.png";
 import mcmaster from "../images/mcmasterLogo.png";
@@ -71,7 +72,7 @@ const Home = () => {
 					<h1>Projects & Experiences</h1>
 					<div className={classes.projects__content}>
 						<Project
-							image={findr}
+							image={amima}
 							title="Amima"
 							desc="Amima is a community dedicated for people to share online shopping experiences and product 
 							reviews. It is a platform that allows you to discover current popular trending products and browse 
