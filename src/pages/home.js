@@ -63,32 +63,17 @@ const Home = () => {
 								<li className={classes.skill}>ReactJS</li>
 								<li className={classes.skill}>Go</li>
 								<li className={classes.skill}>Unity</li>
+								<li className={classes.skill}>Node.js</li>
+								<li className={classes.skill}>C++</li>
+								<li className={classes.skill}>Jenkins</li>
 							</ul>
 						</div>
 					</div>
 				</section>
 				<div className={classes.divider}></div>
 				<section className={classes.projects} id="project">
-					<h1>Projects & Experiences</h1>
+					<h1>Projects</h1>
 					<div className={classes.projects__content}>
-						<Project
-							image={amima}
-							title="Amima"
-							desc="Amima is a community dedicated for people to share online shopping experiences and product 
-							reviews. It is a platform that allows you to discover current popular trending products and browse 
-							through product reviews from other people. As the Lead Front end developer, I guided my team to successfuly
-							develop a responsive UI supported on multiple operating systems in using Flutter. Check out the App through the link below!"
-							links={[
-								{
-									title: "iOS",
-									link: "https://apps.apple.com/us/app/amima/id1639837338?platform=iphone",
-								},
-								{
-									title: "Android",
-									link: "https://play.google.com/store/apps/details?id=com.amima.amima_app",
-								},
-							]}
-						/>
 						<Project
 							image={valorant}
 							title="Valorant Soundboard"
