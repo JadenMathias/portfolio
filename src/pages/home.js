@@ -66,6 +66,8 @@ const Home = () => {
 								<li className={classes.skill}>Node.js</li>
 								<li className={classes.skill}>C++</li>
 								<li className={classes.skill}>Jenkins</li>
+								<li className={classes.skill}>Jira</li>
+								<li className={classes.skill}>PostGreSQL</li>
 							</ul>
 						</div>
 					</div>
