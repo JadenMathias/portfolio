@@ -36,7 +36,7 @@ const Links = () => {
 				className={classes.icon}
 				target="_blank"
 				rel="noopener noreferrer"
-				href="https://drive.google.com/u/0/uc?id=1ZS5equwfrufp0Nf4lUPdPvvo8L71WCml&export=download"
+				href="https://drive.google.com/u/0/uc?id=1JV-hsqiTlOdDeRPr7_y5ao3nsuIP3Z8p&export=download"
 			>
 				<BsFileEarmarkArrowDown />
 			</a>
