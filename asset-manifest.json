@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d6ef133a.css",
-    "main.js": "/portfolio/static/js/main.589f93af.js",
-    "static/media/jaden.png": "/portfolio/static/media/jaden.3a52313f0f299716ba7e.png",
-    "static/media/pong.png": "/portfolio/static/media/pong.f5113db10f2f255bb0bf.png",
-    "static/media/valorant.png": "/portfolio/static/media/valorant.8082eb6f58d9f5df18cc.png",
-    "static/media/mathbot.png": "/portfolio/static/media/mathbot.2508e4d168da8f381a59.png",
-    "static/media/mcmasterLogo.png": "/portfolio/static/media/mcmasterLogo.52cd1aba4db172d6233f.png",
-    "static/media/amima.png": "/portfolio/static/media/amima.af5b0fd0e2342e7b2755.png",
-    "static/media/findr.png": "/portfolio/static/media/findr.cdaf42b5844f88cd9171.png",
-    "index.html": "/portfolio/index.html",
-    "main.d6ef133a.css.map": "/portfolio/static/css/main.d6ef133a.css.map",
-    "main.589f93af.js.map": "/portfolio/static/js/main.589f93af.js.map"
+    "main.css": "/static/css/main.4d92048a.css",
+    "main.js": "/static/js/main.2505a46c.js",
+    "static/media/jaden.png": "/static/media/jaden.3a52313f0f299716ba7e.png",
+    "static/media/pong.png": "/static/media/pong.f5113db10f2f255bb0bf.png",
+    "static/media/valorant.png": "/static/media/valorant.8082eb6f58d9f5df18cc.png",
+    "static/media/mathbot.png": "/static/media/mathbot.2508e4d168da8f381a59.png",
+    "static/media/mcmasterLogo.png": "/static/media/mcmasterLogo.52cd1aba4db172d6233f.png",
+    "static/media/amima.png": "/static/media/amima.af5b0fd0e2342e7b2755.png",
+    "static/media/findr.png": "/static/media/findr.cdaf42b5844f88cd9171.png",
+    "index.html": "/index.html",
+    "main.4d92048a.css.map": "/static/css/main.4d92048a.css.map",
+    "main.2505a46c.js.map": "/static/js/main.2505a46c.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6ef133a.css",
-    "static/js/main.589f93af.js"
+    "static/css/main.4d92048a.css",
+    "static/js/main.2505a46c.js"
   ]
 }
