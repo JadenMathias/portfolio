@@ -3,7 +3,7 @@ import * as React from "react";
 import classes from "./Home.module.scss";
 import img from "../images/jaden.png";
 import findr from "../images/findr.png";
-import amima from "../images/amima.png";
+import _amima from "../images/amima.png";
 import valorant from "../images/valorant.png";
 import mathbot from "../images/mathbot.png";
 import mcmaster from "../images/mcmasterLogo.png";
@@ -22,7 +22,7 @@ const Home = () => {
 					<div className={classes.home__content}>
 						<h1>Jaden Mathias</h1>
 						<p className={classes.home__para}>
-							Computer Science student studying at McMaster University
+							Passionate coder and problem solver, ready to tackle new challenges.
 						</p>
 						<Links />
 					</div>
@@ -30,18 +30,20 @@ const Home = () => {
 				<section className={classes.about} id="about">
 					<h1>About</h1>
 					<p className={classes.about__content}>
-						Jaden Mathias is currently a third year student at McMaster University,
-						pursuing a Major in Computer science. As a undergraduate student he works on
-						many personal projects to strenghten his coding skills. <br />
+						Hi, I’m Jaden Mathias, a third-year Computer Science student at McMaster
+						University. I’m passionate about technology and have had the opportunity to
+						work on diverse projects. I recently completed a role as an Automation
+						Analyst Co-op at Royal Bank of Canada, where I developed a web application
+						to streamline testing processes. Previously, I worked as a Software
+						Developer Co-op at AMD, focusing on optimizing driver performance. I’ve also
+						supported fellow students as a Teaching Assistant. <br />
 						<br />
-						Currently, he has taken the positon of Co Vice president of events at
-						McMaster Start Coding club.
+						I’m currently exploring post-graduation opportunities and am excited about
+						the next steps in my career. <br />
 						<br />
-						<br />
-						Jaden is a team player and a creative yet critical thinker. He believes that
-						he is a fast learner and can be flexible with any work assigned to him.{" "}
-						<br />
-						During his free time Jaden enjoys gaming, swimming and coding.
+						In my free time, I enjoy gaming, swimming, and exploring new coding
+						projects. I’m always eager to learn and tackle new challenges, and I strive
+						to approach problems with creativity and a positive mindset.
 					</p>
 					<div className={classes.about__skills}>
 						<h2>Skills</h2>
@@ -140,7 +142,7 @@ const Home = () => {
 					<div className={classes.education__content}>
 						<img src={mcmaster} alt="Logo" className={classes.education__img} />
 						<p>
-							2020 - 2025<br></br>Third Year doing a Major in Computer Science
+							2020 - 2025<br></br>B.A.Sc Computer Science
 						</p>
 					</div>
 				</section>
