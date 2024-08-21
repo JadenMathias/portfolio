@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d92048a.css",
-    "main.js": "/static/js/main.775f12f1.js",
+    "main.css": "/static/css/main.0582226a.css",
+    "main.js": "/static/js/main.8643574a.js",
     "static/media/jaden.png": "/static/media/jaden.3a52313f0f299716ba7e.png",
     "static/media/pong.png": "/static/media/pong.f5113db10f2f255bb0bf.png",
     "static/media/valorant.png": "/static/media/valorant.8082eb6f58d9f5df18cc.png",
     "static/media/mathbot.png": "/static/media/mathbot.2508e4d168da8f381a59.png",
     "static/media/mcmasterLogo.png": "/static/media/mcmasterLogo.52cd1aba4db172d6233f.png",
+    "static/media/rbc.jpg": "/static/media/rbc.cf6e940a917304ce20b3.jpg",
     "static/media/amima.png": "/static/media/amima.af5b0fd0e2342e7b2755.png",
+    "static/media/amd.jpg": "/static/media/amd.d50cf10882beeb998aa9.jpg",
     "static/media/findr.png": "/static/media/findr.cdaf42b5844f88cd9171.png",
     "index.html": "/index.html",
-    "main.4d92048a.css.map": "/static/css/main.4d92048a.css.map",
-    "main.775f12f1.js.map": "/static/js/main.775f12f1.js.map"
+    "main.0582226a.css.map": "/static/css/main.0582226a.css.map",
+    "main.8643574a.js.map": "/static/js/main.8643574a.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d92048a.css",
-    "static/js/main.775f12f1.js"
+    "static/css/main.0582226a.css",
+    "static/js/main.8643574a.js"
   ]
 }
