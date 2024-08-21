@@ -42,28 +42,21 @@ const Header = (props) => {
 	window.addEventListener("scroll", changeBackground);
 
 	return (
-		<header
-			style={{ background: color ? "#121212" : "transparent" }}
-			className={classes.header}
-		>
+		<header style={{ background: color ? "#121212" : "transparent" }} className={classes.header}>
 			<div className={classes.header__content}>
-				<Link
-					to="home"
-					spy={true}
-					smooth={true}
-					duration={500}
-					offset={-80}
-					className={classes.header__content__logo}
-				>
+				<Link to="home" spy={true} smooth={true} duration={500} offset={-80} className={classes.header__content__logo}>
 					{">"} Jaden Mathias
 				</Link>
-				<nav
-					className={`${classes.header__content__nav} ${menuOpen ? classes.isMenu : ""}`}
-				>
+				<nav className={`${classes.header__content__nav} ${menuOpen ? classes.isMenu : ""}`}>
 					<ul>
 						<li>
 							<Link to="about" spy={true} smooth={true} duration={500} offset={-75}>
 								About
+							</Link>
+						</li>
+						<li>
+							<Link to="experience" spy={true} smooth={true} duration={500} offset={-75}>
+								Experience
 							</Link>
 						</li>
 						<li>
@@ -79,11 +72,7 @@ const Header = (props) => {
 					</ul>
 				</nav>
 				<div className={classes.header__content__toggle}>
-					{menuOpen ? (
-						<AiOutlineClose onClick={menuToggle} />
-					) : (
-						<BiMenuAltRight onClick={menuToggle} />
-					)}
+					{menuOpen ? <AiOutlineClose onClick={menuToggle} /> : <BiMenuAltRight onClick={menuToggle} />}
 				</div>
 			</div>
 		</header>

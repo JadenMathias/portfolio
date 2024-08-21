@@ -8,35 +8,20 @@ import { BsFileEarmarkArrowDown } from "react-icons/bs";
 const Links = () => {
 	return (
 		<div className={classes.footer__icons}>
-			<a
-				className={classes.icon}
-				target="_blank"
-				rel="noopener noreferrer"
-				href="mailto: mathias.jaden@gmail.com"
-			>
+			<a className={classes.icon} target="_blank" rel="noopener noreferrer" href="mailto: mathias.jaden@gmail.com">
 				<FaEnvelope />
 			</a>
-			<a
-				className={classes.icon}
-				target="_blank"
-				rel="noopener noreferrer"
-				href="https://www.linkedin.com/in/jaden-mathias-790616190/"
-			>
+			<a className={classes.icon} target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jadenxmathias/">
 				<SiLinkedin />
 			</a>
-			<a
-				className={classes.icon}
-				target="_blank"
-				rel="noopener noreferrer"
-				href="https://github.com/JadenMathias"
-			>
+			<a className={classes.icon} target="_blank" rel="noopener noreferrer" href="https://github.com/JadenMathias">
 				<SiGithub />
 			</a>
 			<a
 				className={classes.icon}
 				target="_blank"
 				rel="noopener noreferrer"
-				href="https://drive.google.com/u/0/uc?id=1JV-hsqiTlOdDeRPr7_y5ao3nsuIP3Z8p&export=download"
+				href="https://drive.google.com/file/d/1JV-hsqiTlOdDeRPr7_y5ao3nsuIP3Z8p/preview"
 			>
 				<BsFileEarmarkArrowDown />
 			</a>

@@ -71,14 +71,17 @@ section {
 }
 
 .about {
-	&__content {
+	&__me {
 		padding: 20px 10px;
-		margin-top: 10px;
 		font-size: 1.4rem;
-		@include breakpoint(md) {
-			padding: 20px 6rem;
+		&__content {
+			padding: 20px 0px;
+			@include breakpoint(md) {
+				padding: 20px 6rem;
+			}
 		}
 	}
+
 	&__skills {
 		padding: 20px 0px;
 		&__content {
@@ -149,6 +152,13 @@ section {
 	opacity: 0;
 }
 .projects {
+	&__content {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.experience {
 	&__content {
 		display: flex;
 		flex-direction: column;

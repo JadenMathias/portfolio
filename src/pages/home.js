@@ -9,6 +9,8 @@ import mathbot from "../images/mathbot.png";
 import mcmaster from "../images/mcmasterLogo.png";
 import Project from "../components/project";
 import pong from "../images/pong.png";
+import rbc from "../images/rbc.jpg";
+import amd from "../images/amd.jpg";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import Links from "../components/links";
@@ -21,30 +23,26 @@ const Home = () => {
 					<img className={classes.home__image} src={img} alt="" />
 					<div className={classes.home__content}>
 						<h1>Jaden Mathias</h1>
-						<p className={classes.home__para}>
-							Passionate coder and problem solver, ready to tackle new challenges.
-						</p>
+						<p className={classes.home__para}>Passionate coder and problem solver, ready to tackle new challenges.</p>
 						<Links />
 					</div>
 				</section>
 				<section className={classes.about} id="about">
-					<h1>About</h1>
-					<p className={classes.about__content}>
-						Hi, I’m Jaden Mathias, a third-year Computer Science student at McMaster
-						University. I’m passionate about technology and have had the opportunity to
-						work on diverse projects. I recently completed a role as an Automation
-						Analyst Co-op at Royal Bank of Canada, where I developed a web application
-						to streamline testing processes. Previously, I worked as a Software
-						Developer Co-op at AMD, focusing on optimizing driver performance. I’ve also
-						supported fellow students as a Teaching Assistant. <br />
-						<br />
-						I’m currently exploring post-graduation opportunities and am excited about
-						the next steps in my career. <br />
-						<br />
-						In my free time, I enjoy gaming, swimming, and exploring new coding
-						projects. I’m always eager to learn and tackle new challenges, and I strive
-						to approach problems with creativity and a positive mindset.
-					</p>
+					<div className={classes.about__me}>
+						<h1>About</h1>
+						<div className={classes.about__me__content}>
+							Hi, I’m Jaden Mathias, a fourth-year Computer Science student at McMaster University. I’m passionate about technology and
+							have had the opportunity to work on diverse projects. I recently completed a role as an Automation Analyst Co-op at Royal
+							Bank of Canada, where I developed a web application to streamline testing processes. Previously, I worked as a Software
+							Developer Co-op at AMD, focusing on optimizing driver performance. I’ve also supported fellow students as a Teaching
+							Assistant. <br />
+							<br />
+							I’m currently exploring post-graduation opportunities and am excited about the next steps in my career. <br />
+							<br />
+							In my free time, I enjoy gaming, swimming, and exploring new coding projects. I’m always eager to learn and tackle new
+							challenges, and I strive to approach problems with creativity and a positive mindset.
+						</div>
+					</div>
 					<div className={classes.about__skills}>
 						<h2>Skills</h2>
 						<div className={classes.about__skills__content}>
@@ -75,6 +73,33 @@ const Home = () => {
 					</div>
 				</section>
 				<div className={classes.divider}></div>
+				<section className={classes.experience} id="experience">
+					<h1>Experience</h1>
+					<div className={classes.experience__content}>
+						<Project
+							image={rbc}
+							title="Royal Bank of Canada"
+							desc="Took on the role of a Automation Analyst at RBC. Where my key resposibility was to develop a website that would 
+							streamline Test data retrieval for the QA/QE Teams in my division."
+							links={[
+								{
+									title: "Learn more",
+									link: "https://www.linkedin.com/in/jadenxmathias/",
+								},
+							]}
+						/>
+						<Project
+							image={amd}
+							title="Advanced Micro Devices"
+							desc="Worked at AMD as a Software Developer Co-op. I worked on the Power component of the AMD Driver, my contributions included: 
+							Debugging driver defect tickets, Optimizing code performance, building tools that made it easier for system engineers to identify performance gaps,
+							creating Automate test suites in Jenkins to minimize Bug reports in QA Testing cycles. I also got the oppurtunity
+							of Implementing features in the driver for AI initiatives of next generation Ryzen Products."
+							links={[{ title: "Learn more", link: "https://www.linkedin.com/in/jadenxmathias/" }]}
+						/>
+					</div>
+				</section>
+				<div className={classes.divider}></div>
 				<section className={classes.projects} id="project">
 					<h1>Projects</h1>
 					<div className={classes.projects__content}>
@@ -101,9 +126,7 @@ const Home = () => {
 					dimensional instead of two, making it much more challenging and fun. It
 					was made using Unity and programmed in C#. You can try the game or
 					download it with the link below!"
-							links={[
-								{ title: "Try it", link: "https://jmapps.itch.io/neon-3d-pong" },
-							]}
+							links={[{ title: "Try it", link: "https://jmapps.itch.io/neon-3d-pong" }]}
 						/>
 						<Project
 							image={mathbot}
